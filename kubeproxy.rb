@@ -4,8 +4,9 @@
 class Kubeproxy < Formula
   desc "A simple HTTP proxy allowing k8s access kind of the way as it's working in the cluster itself"
   homepage ""
-  url "https://github.com/tipok/kubeproxy/archive/refs/tags/v0.1.0-rc1.tar.gz"
-  sha256 "9d2fa4078de4cb07ac796a6d7b5e79c45cf707ba0d6fbb3b145e0d032f2e9493"
+  url "https://github.com/tipok/kubeproxy/archive/refs/tags/v0.1.0-rc2.tar.gz"
+  version "0.1.0-rc2"
+  sha256 "9e40f524c200c316fe2cf508acfbe241ac13bff117b6f742b102c73f59567cbb"
   license "MIT"
 
   depends_on "go" => :build
